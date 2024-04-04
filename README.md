@@ -13,8 +13,8 @@ CCI:
 the sytle of every company
 
 YYY:
-binary search (704) - nothing fancy
-two pointer (27) - can goes both directions
+binary search (704) - nothing fancy.  
+two pointer (27) - can goes both directions.  
 
 
 
