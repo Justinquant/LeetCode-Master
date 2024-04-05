@@ -27,7 +27,11 @@ what kind of code style you should write
 YYY:   
 Squares of a Sorted Array (977) - easy.  
 Minimum Size Subarray Sum (209) - sliding window, set the target threshold.  
-Spiral Matrix II (59) - four pointers end when they overlapped horizontally or vertically.          
+Spiral Matrix II (59) - four pointers end when they overlapped horizontally or vertically.  
+
+# Summary of Array
+![image](https://github.com/Justinquant/LeetCode-Master/assets/147337004/da5ca2f4-9f5a-48fb-abe8-39c30f36692a)
+
 
 
 
