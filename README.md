@@ -13,8 +13,9 @@ CCI:
 the sytle of every company
 
 YYY:   
-binary search (704) - nothing fancy.  
-two pointer (27) - can goes both directions.  
+[707]binary search (704) - nothing fancy. 
+[707]square root (69) - use newton method.      
+[707]two pointer (27) - can goes both directions.  
 
 # Apr 4, 2024
 Watch the Rockets VS Warriors game tonight.
@@ -25,12 +26,29 @@ CCI:
 what kind of code style you should write
 
 YYY:   
-Squares of a Sorted Array (977) - easy.  
-Minimum Size Subarray Sum (209) - sliding window, set the target threshold.  
-Spiral Matrix II (59) - four pointers end when they overlapped horizontally or vertically.  
+[977] Squares of a Sorted Array - easy.  
+[209] Minimum Size Subarray Sum - sliding window, set the target threshold.  
+[59]Spiral Matrix II - four pointers end when they overlapped horizontally or vertically.  
 
 # Summary of Array
 ![image](https://github.com/Justinquant/LeetCode-Master/assets/147337004/da5ca2f4-9f5a-48fb-abe8-39c30f36692a)
+
+
+# Apr 5, 2024
+
+CCI:
+No time for it
+
+YYY: 
+LinkedList Started
+[203] Remove Linked List Elements - easy.   
+[707] Design Linked List - easy.   
+[206] Reverse Linked List - set up the return condition / exit situation for recusion !!!    
+
+
+
+
+
 
 
 
