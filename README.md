@@ -33,9 +33,7 @@ YYY:
 # Summary of Array
 ![image](https://github.com/Justinquant/LeetCode-Master/assets/147337004/da5ca2f4-9f5a-48fb-abe8-39c30f36692a)
 
-
 # Apr 5, 2024
-
 CCI:
 No time for it
 
@@ -43,7 +41,19 @@ YYY:
 LinkedList Started
 [203] Remove Linked List Elements - easy.   
 [707] Design Linked List - easy.   
-[206] Reverse Linked List - set up the return condition / exit situation for recusion !!!    
+[206] Reverse Linked List - set up the return condition / exit situation for recusion !!!   
+
+# Apr 6, 2024
+CCI:
+coding style.Make certain struct instead of long enumeration
+
+YYY: 
+[24] Swap Nodes in Pairs - use **pp = &head can replace dummyHead, niubi!!!               
+[19] Remove Nth Node From End of List - easy, make the fast pointer go nth step in advance.
+[160] Intersection of Two Linked Lists - make the starts point same.     
+[142] Linked List Cycle II - mainly about math prove.    
+https://en.wikipedia.org/wiki/Cycle_detection#Floyd's_Tortoise_and_Hare
+
 
 
 
