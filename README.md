@@ -31,7 +31,7 @@ YYY camp:
 [59]Spiral Matrix II - four pointers end when they overlapped horizontally or vertically.  
 
 # Summary of Array
-![image](https://github.com/Justinquant/LeetCode-Master/assets/147337004/da5ca2f4-9f5a-48fb-abe8-39c30f36692a)
+![Array](https://github.com/Justinquant/LeetCode-Master/assets/147337004/600d5385-7dc6-43ec-91c5-7500bc517eab)
 
 # Apr 5, 2024
 CCI book:    
@@ -53,6 +53,10 @@ YYY camp:
 [160] Intersection of Two Linked Lists - make the starts point same.     
 [142] Linked List Cycle II - mainly about math prove.    
 https://en.wikipedia.org/wiki/Cycle_detection#Floyd's_Tortoise_and_Hare
+
+# Summary of LinkedList
+![LinkedList](https://github.com/Justinquant/LeetCode-Master/assets/147337004/c857c573-1e57-4018-9167-d2e98e2f8306)
+
 
 
 
