@@ -48,7 +48,7 @@ CCI book:
 coding style.Make certain struct instead of long enumeration
 
 YYY camp:         
-[24] Swap Nodes in Pairs - use **pp = &head can replace dummyHead, niubi!!!               
+[24] Swap Nodes in Pairs - use **pp = &head can replace dummyHead, bullseye bullseye bullseye!!!                   
 [19] Remove Nth Node From End of List - easy, make the fast pointer go nth step in advance.
 [160] Intersection of Two Linked Lists - make the starts point same.     
 [142] Linked List Cycle II - mainly about math prove.    
