@@ -9,10 +9,10 @@ The most tricky part is to login the leetcode extension on VSCode.
 Remember to use cookie of ur leetcode account since the orther ways are all dead ends!!!    
 ![image](https://github.com/Justinquant/LeetCode-Master/assets/147337004/be3a455b-3135-4c9d-a95b-2fee2128787d)
 
-CCI:    
+CCI book:    
 the sytle of every company
 
-YYY:   
+YYY camp:         
 [707]binary search (704) - nothing fancy. 
 [707]square root (69) - use newton method.      
 [707]two pointer (27) - can goes both directions.  
@@ -22,10 +22,10 @@ Watch the Rockets VS Warriors game tonight.
 My old man isn't that old hhh~          
 ![image](https://github.com/Justinquant/LeetCode-Master/assets/147337004/432aee56-099e-4552-8ea9-bb7ff247f447)
 
-CCI:    
+CCI book:    
 what kind of code style you should write
 
-YYY:   
+YYY camp:         
 [977] Squares of a Sorted Array - easy.  
 [209] Minimum Size Subarray Sum - sliding window, set the target threshold.  
 [59]Spiral Matrix II - four pointers end when they overlapped horizontally or vertically.  
@@ -34,20 +34,20 @@ YYY:
 ![image](https://github.com/Justinquant/LeetCode-Master/assets/147337004/da5ca2f4-9f5a-48fb-abe8-39c30f36692a)
 
 # Apr 5, 2024
-CCI:
+CCI book:    
 No time for it
 
-YYY: 
-LinkedList Started
+YYY camp:         
+LinkedList chapter started
 [203] Remove Linked List Elements - easy.   
 [707] Design Linked List - easy.   
 [206] Reverse Linked List - set up the return condition / exit situation for recusion !!!   
 
 # Apr 6, 2024
-CCI:
+CCI book:    
 coding style.Make certain struct instead of long enumeration
 
-YYY: 
+YYY camp:         
 [24] Swap Nodes in Pairs - use **pp = &head can replace dummyHead, niubi!!!               
 [19] Remove Nth Node From End of List - easy, make the fast pointer go nth step in advance.
 [160] Intersection of Two Linked Lists - make the starts point same.     
