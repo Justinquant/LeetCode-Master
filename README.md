@@ -57,8 +57,15 @@ https://en.wikipedia.org/wiki/Cycle_detection#Floyd's_Tortoise_and_Hare
 # Summary of LinkedList
 ![LinkedList](https://github.com/Justinquant/LeetCode-Master/assets/147337004/c857c573-1e57-4018-9167-d2e98e2f8306)
 
+# Apr 8, 2024
+CCI book:    
+The operation of string and char array            
 
-
+YYY camp:            
+[242] Valid Anagram - easy           
+[349] Intersection of Two Arrays - notice the constraints, use array when u can. set use insert method.               
+[202] Happy Number - can use __Floyd Cycle detection Algo__ instead of set.     
+[1] Two Sum - finally the very first question two sum ！！！    
 
 
 
