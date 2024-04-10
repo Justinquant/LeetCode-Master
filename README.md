@@ -67,9 +67,16 @@ YYY camp:
 [202] Happy Number - can use __Floyd Cycle detection Algo__ instead of set.     
 [1] Two Sum - finally the very first question two sum ！！！    
 
+# Apr 9, 2024
+CCI book:    
+The operation of string and char array     
 
-
-
+YYY camp:    
+[454] 4Sum II - no index request then can apply unordered_map             
+[383] Ransom Note - easy     
+[15] 3Sum - notice the weird behaviour of emplace_back when use uncertain type variable           
+[18] 4Sum -  prune           
+if the constraints set to be lowercase English letters __use array instead of unordered_map__                  
 
 
 
