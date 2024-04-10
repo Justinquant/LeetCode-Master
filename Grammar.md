@@ -1,9 +1,10 @@
 ## Python
 
+```
 def intersect(self, nums1, nums2):
     a, b = map(collections.Counter, (nums1, nums2))   # counter是 clt库中的特殊字典子类，用于元素计数
     return list((a & b).elements()) # counter 交集操作，取最小数，.elements()方法返回包含所有重复元素的迭代器
-
+```
 
 ## C++   
 # vector       
