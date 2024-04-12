@@ -79,15 +79,34 @@ YYY camp:
 if the constraints set to be lowercase English letters __use array instead of unordered_map__                  
 
 # Apr 9, 2024
-Acwing:
+Acwing:               
 find the the kth in n: n >> k & 1               
 return the last 1 of n：lowbit(n) = n & -n, -n = ~n + 1 // Two's Complement
 
 YYY camp:  
 [344] Reverse String - easy s[i] ^= s[j]; s[j] ^= s[i]; s[i] ^= s[j]; 
 [541] Reverse String II - easy    
-[151] Reverse Words in a String - can use stack as well,erase is On time complexity                
+[151] Reverse Words in a String - can use stack as well,erase is On time complexity   
 
+# Apr 9, 2024
+Acwing:                
+use array to implentment linkedlist/stack/queue/monotonic stack & recurring queue               
+
+YYY camp:            
+[28] Find the Index of the First Occurrence in a String - KMP                
+[459] Repeated Substring Pattern - Round cycle & KMP!!! 
+```
+int n = needle.size();
+int next[n];
+ne[0] = 0;
+for (int i = 1, j = 0; i < n; i++) {
+  while (j && needle[i] != needle[j])
+      j = ne[j - 1];
+  if (needle[i] == needle[j])
+      j++;
+  ne[i] = j;
+}
+```
 
 
 
