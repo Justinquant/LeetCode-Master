@@ -108,6 +108,24 @@ for (int i = 1, j = 0; i < n; i++) {
 }
 ```
 
+# Apr 9, 2024
+Acwing:   
+Practice yesterday data structure              
+
+YYY camp:   
+[225] Implement Stack using Queues  - use one queue                       
+[232] Implement Queue using Stacks - use two stacks      
+[20] Valid Parentheses - edge case and special verdict for beating 100%!!!                      
+[1047] Remove All Adjacent Duplicates In String - space O1 we use origin string as stack + two pointer     
+[150] Evaluate Reverse Polish Notation - Reverse Polish Notation used for computer without reverse                 
+```
+// lambda expression  bullseye again ！！！
+unordered_map<string, function<int(int, int)>> map = {{"+", [](int a, int b) { return a + b; }},
+                                                              {"-", [](int a, int b) { return a - b; }},
+                                                              {"*", [](int a, int b) { return a * b; }},
+                                                              {"/", [](int a, int b) { return a / b; }}};
+```
+ 
 
 
 
