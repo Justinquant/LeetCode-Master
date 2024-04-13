@@ -78,7 +78,7 @@ YYY camp:
 [18] 4Sum -  prune           
 if the constraints set to be lowercase English letters __use array instead of unordered_map__                  
 
-# Apr 9, 2024
+# Apr 10, 2024
 Acwing:               
 find the the kth in n: n >> k & 1               
 return the last 1 of n：lowbit(n) = n & -n, -n = ~n + 1 // Two's Complement
@@ -88,7 +88,7 @@ YYY camp:
 [541] Reverse String II - easy    
 [151] Reverse Words in a String - can use stack as well,erase is On time complexity   
 
-# Apr 9, 2024
+# Apr 11, 2024
 Acwing:                
 use array to implentment linkedlist/stack/queue/monotonic stack & recurring queue               
 
@@ -108,11 +108,11 @@ for (int i = 1, j = 0; i < n; i++) {
 }
 ```
 
-# Apr 9, 2024
+# Apr 12, 2024
 Acwing:   
 Practice yesterday data structure              
 
-YYY camp:   
+YYY camp:     
 [225] Implement Stack using Queues  - use one queue                       
 [232] Implement Queue using Stacks - use two stacks      
 [20] Valid Parentheses - edge case and special verdict for beating 100%!!!                      
@@ -126,7 +126,23 @@ unordered_map<string, function<int(int, int)>> map = {{"+", [](int a, int b) { r
                                                               {"/", [](int a, int b) { return a / b; }}};
 ```
  
+# Apr 12, 2024
+Acwing:  
+implementation of min/max heap is tricky  - use up / down function
 
+YYY camp:     
+[239] Sliding Window Maximum - use monotonic queue        
+[347] Top K Frequent Elements - priority_queue          
+```
+priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> pq; // less heap
+for (auto &[num, freq] : count) {   // Structured Binding
+    pq.push({freq, num});
+    if (pq.size() > k) {
+        pq.pop();
+    }
+}
+```
+[71] Simplify Path - vector can do everything even pop_back()！                         
 
 
 
