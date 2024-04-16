@@ -142,7 +142,26 @@ for (auto &[num, freq] : count) {   // Structured Binding
     }
 }
 ```
-[71] Simplify Path - vector can do everything even pop_back()！                         
+[71] Simplify Path - vector can do everything even pop_back()！     
+
+# Apr 15, 2024
+Acwing:    
+Searching and Graph Theory          
+
+YYY camp: 
+DFS algo               
+[129] Sum Root to Leaf Numbers | [144] Binary Tree Preorder Traversal |  [145] Binary Tree Postorder Traversal | [94] Binary Tree Inorder Traversal
+When non recursion use stack add null point    
+
+
+# Apr 16, 2024
+Acwing:    
+revision and exercise
+
+YYY camp: 
+BFS algo         
+
+
 
 
 
