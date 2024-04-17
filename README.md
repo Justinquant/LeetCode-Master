@@ -148,18 +148,33 @@ for (auto &[num, freq] : count) {   // Structured Binding
 Acwing:    
 Searching and Graph Theory          
 
-YYY camp: 
-DFS algo               
+YYY camp:           
+DFS algo                   
 [129] Sum Root to Leaf Numbers | [144] Binary Tree Preorder Traversal |  [145] Binary Tree Postorder Traversal | [94] Binary Tree Inorder Traversal
-When non recursion use stack add null point    
+When non recursion use stack with null point tail              
+[199] Binary Tree Right Side View - can use both BFS || DFS         
+   
 
 
 # Apr 16, 2024
 Acwing:    
 revision and exercise
 
-YYY camp: 
-BFS algo         
+YYY camp:             
+BFS algo       
+[102] Binary Tree Level Order Traversal |  [107] Binary Tree Level Order Traversal II |  [637] Average of Levels in Binary Tree | [429] N-ary Tree Level Order Traversal | [515] Find Largest Value in Each Tree Row | [117] Populating Next Right Pointers in Each Node II | [111] Minimum Depth of Binary Tree | [226] Invert Binary Tree | 104] Maximum Depth of Binary Tree | [572] Subtree of Another Tree | [100] Same Tree | [101] Symmetric Tree | [116] Populating Next Right Pointers in Each Node     
+
+# Apr 17, 2024
+Acwing:    
+Searching and Graph Theory II
+
+YYY camp:             
+BFS & DFS algo
+[559] Maximum Depth of N-ary Tree | [404] Sum of Left Leaves |  [257] Binary Tree Paths | [513] Find Bottom Left Tree Value        
+[222] Count Complete Tree Nodes - the characteristic of complete tree
+[110] Balanced Binary Tree - use recusive DFS
+[112] Path Sum | [113] Path Sum II - use backttrack algo             
+
 
 
 
