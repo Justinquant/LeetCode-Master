@@ -175,11 +175,20 @@ BFS & DFS algo
 [110] Balanced Binary Tree - use recusive DFS               
 [112] Path Sum | [113] Path Sum II - use backttrack algo                   
 
- # Apr 18, 2024
+# Apr 18, 2024
  YYY camp:  
 [106] Construct Binary Tree from Inorder and Postorder Traversal - use index
 [105] Construct Binary Tree from Preorder and Inorder Traversal | [654] Maximum Binary Tree | [617] Merge Two Binary Trees - recursion method is better           
-[700] Search in a Binary Search Tree - BST  | [98] Validate Binary Search Tree - verify BST must use inorder search & stack       
+[700] Search in a Binary Search Tree - BST  | [98] Validate Binary Search Tree - verify BST must use inorder search & stack      
+
+# Apr 19, 2024
+Acwing:    
+Dijkstra algo      
+
+YYY camp:  
+[501] Find Mode in Binary Search Tree - operate in the inorder traverse                   
+[236] Lowest Common Ancestor of a Binary Tree - recursion better  | [235] Lowest Common Ancestor of a Binary Search Tree - iteration better      
+[701] Insert into a Binary Search Tree | [450] Delete Node in a BST | [669] Trim a Binary Search Tree | [108] Convert Sorted Array to Binary Search Tree | [538] Convert BST to Greater Tree     
 
 
 
