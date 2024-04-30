@@ -1,7 +1,7 @@
 # LeetCode-Master
 Noob Camp mix Crack the Code Interview(CCI) && Acwing 算法基础班(ACW) && 代码随想录(YYY)  
 
-# Apr 3, 2024
+## Apr 3, 2024
 My 4080 Super has finally arrived !!!   
 
 The most tricky part is to login the leetcode extension on VSCode.   
@@ -16,7 +16,7 @@ YYY camp:
 [707]square root (69) - use newton method.      
 [707]two pointer (27) - can goes both directions.  
 
-# Apr 4, 2024
+## Apr 4, 2024
 Watch the Rockets VS Warriors game tonight.
 My old man isn't that old hhh~          
 ![image](https://github.com/Justinquant/LeetCode-Master/assets/147337004/432aee56-099e-4552-8ea9-bb7ff247f447)
@@ -32,7 +32,7 @@ YYY camp:
 # Summary of Array
 ![Array](https://github.com/Justinquant/LeetCode-Master/assets/147337004/600d5385-7dc6-43ec-91c5-7500bc517eab)
 
-# Apr 5, 2024
+## Apr 5, 2024
 CCI book:    
 No time for it
 
@@ -42,7 +42,7 @@ LinkedList chapter started
 [707] Design Linked List - easy.   
 [206] Reverse Linked List - set up the return condition / exit situation for recusion !!!   
 
-# Apr 6, 2024
+## Apr 6, 2024
 CCI book:    
 coding style.Make certain struct instead of long enumeration
 
@@ -51,12 +51,12 @@ YYY camp:
 [19] Remove Nth Node From End of List - easy, make the fast pointer go nth step in advance.<br>
 [160] Intersection of Two Linked Lists - make the starts point same.     
 [142] Linked List Cycle II - mainly about math prove.    
-https://en.wikipedia.org/wiki/Cycle_detection#Floyd's_Tortoise_and_Hare
+https://en.wikipedia.org/wiki/Cycle_detection##Floyd's_Tortoise_and_Hare
 
 # Summary of LinkedList
 ![LinkedList](https://github.com/Justinquant/LeetCode-Master/assets/147337004/c857c573-1e57-4018-9167-d2e98e2f8306)
 
-# Apr 8, 2024
+## Apr 8, 2024
 CCI book:    
 The operation of string and char array            
 
@@ -66,7 +66,7 @@ YYY camp:
 [202] Happy Number - can use __Floyd Cycle detection Algo__ instead of set.     
 [1] Two Sum - finally the very first question two sum ！！！    
 
-# Apr 9, 2024
+## Apr 9, 2024
 CCI book:    
 The operation of string and char array     
 
@@ -77,7 +77,7 @@ YYY camp:
 [18] 4Sum -  prune           
 if the constraints set to be lowercase English letters __use array instead of unordered_map__                  
 
-# Apr 10, 2024
+## Apr 10, 2024
 Acwing:               
 find the the kth in n: n >> k & 1               
 return the last 1 of n：lowbit(n) = n & -n, -n = ~n + 1 // Two's Complement
@@ -87,7 +87,7 @@ YYY camp:
 [541] Reverse String II - easy    
 [151] Reverse Words in a String - can use stack as well,erase is On time complexity   
 
-# Apr 11, 2024
+## Apr 11, 2024
 Acwing:                
 use array to implentment linkedlist/stack/queue/monotonic stack & recurring queue               
 
@@ -107,7 +107,7 @@ for (int i = 1, j = 0; i < n; i++) {
 }
 ```
 
-# Apr 12, 2024
+## Apr 12, 2024
 Acwing:   
 Practice yesterday data structure              
 
@@ -125,7 +125,7 @@ unordered_map<string, function<int(int, int)>> map = {{"+", [](int a, int b) { r
                                                               {"/", [](int a, int b) { return a / b; }}};
 ```
  
-# Apr 13, 2024
+## Apr 13, 2024
 Acwing:  
 implementation of min/max heap is tricky  - use up / down function
 
@@ -143,7 +143,7 @@ for (auto &[num, freq] : count) {   // Structured Binding
 ```
 [71] Simplify Path - vector can do everything even pop_back()！     
 
-# Apr 15, 2024
+## Apr 15, 2024
 Acwing:    
 Searching and Graph Theory          
 
@@ -155,7 +155,7 @@ When non recursion use stack with null point tail
    
 
 
-# Apr 16, 2024
+## Apr 16, 2024
 Acwing:    
 revision and exercise
 
@@ -163,7 +163,7 @@ YYY camp:
 BFS algo       
 [102] Binary Tree Level Order Traversal |  [107] Binary Tree Level Order Traversal II |  [637] Average of Levels in Binary Tree | [429] N-ary Tree Level Order Traversal | [515] Find Largest Value in Each Tree Row | [117] Populating Next Right Pointers in Each Node II | [111] Minimum Depth of Binary Tree | [226] Invert Binary Tree | 104] Maximum Depth of Binary Tree | [572] Subtree of Another Tree | [100] Same Tree | [101] Symmetric Tree | [116] Populating Next Right Pointers in Each Node           
 
-# Apr 17, 2024
+## Apr 17, 2024
 Acwing:    
 Searching and Graph Theory II
 
@@ -174,13 +174,13 @@ BFS & DFS algo
 [110] Balanced Binary Tree - use recusive DFS               
 [112] Path Sum | [113] Path Sum II - use backttrack algo                   
 
-# Apr 18, 2024
+## Apr 18, 2024
  YYY camp:  
 [106] Construct Binary Tree from Inorder and Postorder Traversal - use index
 [105] Construct Binary Tree from Preorder and Inorder Traversal | [654] Maximum Binary Tree | [617] Merge Two Binary Trees - recursion method is better           
 [700] Search in a Binary Search Tree - BST  | [98] Validate Binary Search Tree - verify BST must use inorder search & stack      
 
-# Apr 19, 2024
+## Apr 19, 2024
 Acwing:    
 Dijkstra algo      
 
@@ -190,24 +190,30 @@ YYY camp:
 [701] Insert into a Binary Search Tree | [450] Delete Node in a BST | [669] Trim a Binary Search Tree | [108] Convert Sorted Array to Binary Search Tree | [538] Convert BST to Greater Tree     
 
 # backtracking
-# Apr 25, 2024
+## Apr 25, 2024
 YYY camp:                     
 [77] Combination | [216] Combination Sum III - can use fixed sub array which is fast               
 
-# Apr 26, 2024
+## Apr 26, 2024
 YYY camp:     
 [17] Letter Combinations of a Phone Number | [39] Combination Sum     
 
-# Apr 27, 2024
+## Apr 27, 2024
 YYY camp:     
 [40] Combination Sum II  | [131] Palindrome-partitioning | [93] Restore IP Adress              
 
-# Apr 28, 2024
+## Apr 28, 2024
 YYY camp:  
 [78] Subsets | [90] Subsets II | [491] Non-decreasing-subsequences | [46] Permutations   
 
-# Apr 29, 2024
+## Apr 29, 2024
 YYY camp:  
 [332] Reconstruct Itinerary - ```unordered_map<string, priority_queue<string, vector<string>, greater<string>>> targets;```  
 [51] N-Queens - ``` vector<int> cols(n, 0), diag1(2 * n - 1, 0), diag2(2 * n - 1, 0); if (cols[col] || diag1[row + col] || diag2[row - col + n - 1]) continue; ```
-[37] Sudoku Solver - ``` boxes[i / 3 * 3 + j / 3] |= 1 << num; boxes[box] & (1 << num); boxes[box] &= ~(1 << num);```
+[37] Sudoku Solver - ``` boxes[i / 3 * 3 + j / 3] |= 1 << num; boxes[box] & (1 << num); boxes[box] &= ~(1 << num);```             
+
+# Summary of Backtracking
+![e73a6529ff1cdd82fadd07281ea81dc](https://github.com/Justinquant/LeetCode-Master/assets/147337004/87aa6a88-a993-4018-bb7c-f188898761fc)
+
+# Greedy Algo
+## Apr 30, 2024
