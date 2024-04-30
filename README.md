@@ -208,4 +208,6 @@ YYY camp:
 
 # Apr 29, 2024
 YYY camp:  
-[332] Reconstruct Itinerary - ```unordered_map<string, priority_queue<string, vector<string>, greater<string>>> targets;```               
+[332] Reconstruct Itinerary - ```unordered_map<string, priority_queue<string, vector<string>, greater<string>>> targets;```  
+[51] N-Queens - ``` vector<int> cols(n, 0), diag1(2 * n - 1, 0), diag2(2 * n - 1, 0); if (cols[col] || diag1[row + col] || diag2[row - col + n - 1]) continue; ```
+[37] Sudoku Solver - ``` boxes[i / 3 * 3 + j / 3] |= 1 << num; boxes[box] & (1 << num); boxes[box] &= ~(1 << num);```
