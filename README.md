@@ -2,8 +2,7 @@
 Noob Camp mix Crack the Code Interview(CCI) && Acwing 算法基础班(ACW) && 代码随想录(YYY)  
 
 # Apr 3, 2024
-My 4080 Super has arrived finally!!!   
-Cheaper in US compared to China ~   
+My 4080 Super has finally arrived !!!   
 
 The most tricky part is to login the leetcode extension on VSCode.   
 Remember to use cookie of ur leetcode account since the orther ways are all dead ends!!!    
@@ -201,6 +200,12 @@ YYY camp:
 
 # Apr 27, 2024
 YYY camp:     
-[40] Combination Sum II  | [131] Palindrome-partitioning | [93] Restore IP Adress            
+[40] Combination Sum II  | [131] Palindrome-partitioning | [93] Restore IP Adress              
 
+# Apr 28, 2024
+YYY camp:  
+[78] Subsets | [90] Subsets II | [491] Non-decreasing-subsequences | [46] Permutations   
 
+# Apr 29, 2024
+YYY camp:  
+[332] Reconstruct Itinerary - ```unordered_map<string, priority_queue<string, vector<string>, greater<string>>> targets;```               
