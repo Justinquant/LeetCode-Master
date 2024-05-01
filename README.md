@@ -224,3 +224,12 @@ priority_queue<int, vector<int>, greater<int>> pq(nums.begin(), nums.end()); pq.
 sort(nums.begin(), nums.end(), [](int a, int b) { return abs(a) > abs(b); });              
 return accumulate(nums.begin(), nums.end(), 0);
 ```
+
+## May 1, 2024
+[134] Gas Station | [135] candy | [860] Lemonade-change | [452] Minimum Number of Arrows to Burst Balloons
+[406] Queue-Reconstruction-by-height -   
+```
+static bool cmp(const vector<int>& a, const vector<int>& b) // inside the class need to add static since this is a invisible this* pointer
+list<vector<int>> que; std::list<vector<int>>::iterator it = que.begin(); pos--; it++; que.insert(it, people[i]);
+```
+
