@@ -226,7 +226,8 @@ return accumulate(nums.begin(), nums.end(), 0);
 ```
 
 ## May 1, 2024
-[134] Gas Station | [135] candy | [860] Lemonade-change | [452] Minimum Number of Arrows to Burst Balloons | [435] Non-overlapping Intervals
+[134] Gas Station | [135] candy | [860] Lemonade-change | [452] Minimum Number of Arrows to Burst Balloons | [435] Non-overlapping Intervals | [763] Partition Labels |            
+[56] Merge-intervals | [738] monotone-increasing-digits | [968] binary-tree-cameras
 [406] Queue-Reconstruction-by-height -   
 ```
 static bool cmp(const vector<int>& a, const vector<int>& b) // inside the class need to add static since this is a invisible this* pointer
