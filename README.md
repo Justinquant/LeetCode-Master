@@ -217,7 +217,7 @@ YYY camp:
 
 # Greedy Algo
 ## Apr 30, 2024
-[455] assign-cookies | [376] Wiggle Subsequence | [53] Maximum Subarray | [122] Best Time to Buy and Sell Stock II | [55] Jump Game |         
+[455] assign-cookies | [376] Wiggle Subsequence | [53] Maximum Subarray | [122] Best Time to Buy and Sell Stock II | [714] Best Time to Buy and Sell Stock | [55] Jump Game |         
 [1005] Maximize Sum Of Array After K Negations - 
 ```
 priority_queue<int, vector<int>, greater<int>> pq(nums.begin(), nums.end()); pq.push(sth);
