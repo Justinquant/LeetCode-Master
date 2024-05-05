@@ -217,6 +217,7 @@ YYY camp:
 
 # Greedy Algo
 ## Apr 30, 2024
+YYY camp:  
 [455] assign-cookies | [376] Wiggle Subsequence | [53] Maximum Subarray | [122] Best Time to Buy and Sell Stock II | [714] Best Time to Buy and Sell Stock | [55] Jump Game |         
 [1005] Maximize Sum Of Array After K Negations - 
 ```
@@ -226,6 +227,7 @@ return accumulate(nums.begin(), nums.end(), 0);
 ```
 
 ## May 1, 2024
+YYY camp:  
 [134] Gas Station | [135] candy | [860] Lemonade-change | [452] Minimum Number of Arrows to Burst Balloons | [435] Non-overlapping Intervals | [763] Partition Labels |            
 [56] Merge-intervals | [738] monotone-increasing-digits | [968] binary-tree-cameras
 [406] Queue-Reconstruction-by-height -   
@@ -235,5 +237,10 @@ list<vector<int>> que; std::list<vector<int>>::iterator it = que.begin(); pos--;
 ```
 
 # Dynamic Programming
-## May 1, 2024
-[509] Fibonacci Number | [70] Climbing-stairs | [746] Min-cost-climbing-stairs | [62] Unique-path | [63] Unique-path II | [343] Integer Break | [96] Unique Binary Search Trees          
+## May 2, 2024
+YYY camp:  
+[509] Fibonacci Number | [70] Climbing-stairs | [746] Min-cost-climbing-stairs | [62] Unique-path | [63] Unique-path II | [343] Integer Break | [96] Unique Binary Search Trees
+
+## May 2, 2024
+YYY camp:  
+[416] Partition Equal Subset Sum | [1049] Last Stone Weight II | [698] Partition to K Equal Sum Subsets | [473] Matchsticks to Square
