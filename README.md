@@ -263,4 +263,19 @@ for (int i = 1; i <= n; i++) {
 }
 return dp[n];
 ```
-[198] House Robber | [213] House Robber II | [337] House Robber III                           
+[198] House Robber | [213] House Robber II | [337] House Robber III 
+```
+function<pair<int, int>(TreeNode*)> dfs = [&](TreeNode* node) -> pair<int, int> {
+  if (!node) return {0, 0};
+  auto [left_rob, left_not_rob] = dfs(node->left);
+  auto [right_rob, right_not_rob] = dfs(node->right);
+  int rob = node->val + left_not_rob + right_not_rob;
+  int not_rob = max(left_rob, left_not_rob) + max(right_rob, right_not_rob);
+  return {rob, not_rob};
+};
+auto [rob, not_rob] = dfs(root);
+return max(rob, not_rob);
+```
+
+## May 6, 2024
+[121] [122] [123] [188] [309] Best-time-to-buy-and-sell-stock I | II | III | IV | with cooldown | 
