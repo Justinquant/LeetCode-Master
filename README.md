@@ -244,3 +244,23 @@ YYY camp:
 ## May 4, 2024
 YYY camp:  
 [416] Partition Equal Subset Sum | [1049] Last Stone Weight II | [698] Partition to K Equal Sum Subsets | [473] Matchsticks to Square | [494] Target-sum | [474] Ones and Zeroes
+
+## May 5, 2024
+[518] Coin Change II - include every step start from 2D vector
+[377] Combination-sum-iv | [322] Coin Change | [279] Perfect Squares | [139] Word-break
+```
+unordered_set<string> dict(wordDict.begin(), wordDict.end());
+int n = s.size();
+vector<bool> dp(n + 1, false);
+dp[0] = true;
+for (int i = 1; i <= n; i++) {
+  for (int j = 0; j < i; j++) {
+    if (dp[j] && dict.count(s.substr(j, i - j))) {
+      dp[i] = true;
+      break;
+    }
+  }
+}
+return dp[n];
+```
+[198] House Robber | [213] House Robber II | [337] House Robber III                           
