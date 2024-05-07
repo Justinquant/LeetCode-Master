@@ -279,11 +279,20 @@ return max(rob, not_rob);
 
 ## May 6, 2024
 [121] [122] [123] [188] [309] Best-time-to-buy-and-sell-stock I | II | III | IV | with cooldown | 
-[392] Is-subsequence | [53] Maximum-subarray | [1035] uncrossed-lines | 
-
+[392] Is-subsequence | [53] Maximum-subarray | [1035] uncrossed-lines | [1143] Longest-Common-Subsequence
+[300] Longest-increasing-subsequence
+```
+vector<int> dp;
+    for (int i = 0; i < nums.size(); i++) {
+      auto it = lower_bound(dp.begin(), dp.end(), nums[i]);
+      if (it == dp.end()) dp.push_back(nums[i]);
+      else *it = nums[i];
+    }
+    return dp.size();
+```
 
 ## May 7, 2024
-[115] Distinct-subsequence | 
+[115] Distinct-subsequence | [583] Delete-operation-for-two-strings
 
 
 
