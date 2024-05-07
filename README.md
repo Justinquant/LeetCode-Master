@@ -292,7 +292,8 @@ vector<int> dp;
 ```
 
 ## May 7, 2024
-[115] Distinct-subsequence | [583] Delete-operation-for-two-strings
+[115] Distinct-subsequence | [583] Delete-operation-for-two-strings | [72] Edit-distance            
+[647] Palindromic-substrings | [516] Longest-Palindromic-subsequence 
 
 
 
