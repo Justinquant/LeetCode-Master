@@ -295,6 +295,12 @@ vector<int> dp;
 [115] Distinct-subsequence | [583] Delete-operation-for-two-strings | [72] Edit-distance            
 [647] Palindromic-substrings | [516] Longest-Palindromic-subsequence 
 
+# Monotonic Stack
+## May 8, 2024
+[739] Daily-temperature | [496] Next-greater-element I | II | [42] Trapping-rain-water | [84] Largest-rectangle-in-histogram    
+
+# Graph Theory
+## May 8, 2024
 
 
 
