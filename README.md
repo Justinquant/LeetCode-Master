@@ -300,9 +300,13 @@ vector<int> dp;
 [739] Daily-temperature | [496] Next-greater-element I | II | [42] Trapping-rain-water | [84] Largest-rectangle-in-histogram    
 
 # Graph Theory
-## May 8, 2024
-[797] All-path-from-source-to-target | [200] Number-of-islands | [695] Max-area-of-island 
-
+## May 9, 2024
+[797] All-path-from-source-to-target | [200] Number-of-islands | [695] Max-area-of-island | [130] Surrounded-regions | [1020] Number-of-enclaves     
+[417] Pacific-atlantic-water-flow  | [827] Making-a-large-island | [127] Word-ladder
+```
+auto dfs = [&](int x, int y, int(&visited)[N][N], auto &&dfs) -> void {};
+void dfs(int x, int y, vector<vector<int>> &heights, int (&visited)[N][N])
+```
 
 
 
