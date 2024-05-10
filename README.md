@@ -308,7 +308,15 @@ auto dfs = [&](int x, int y, int(&visited)[N][N], auto &&dfs) -> void {};
 void dfs(int x, int y, vector<vector<int>> &heights, int (&visited)[N][N])
 ```
 
-
+# bit operation
+[1356] Sort-integers-by-the-number-of-1-bits
+```
+int cntA = __builtin_popcount(a);
+std::bitset<32> b(x); return b.count();  // 假设我们处理的是32位整数  
+vector<int> bits(10001);
+for (int i = 1; i <= 10000; i++) 
+  bits[i] = bits[i >> 1] + (i & 1);
+```
 
 
 
