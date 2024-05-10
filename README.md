@@ -305,14 +305,27 @@ vector<int> dp;
 [417] Pacific-atlantic-water-flow  | [827] Making-a-large-island | [127] Word-ladder
 ```
 auto dfs = [&](int x, int y, int(&visited)[N][N], auto &&dfs) -> void {};
+auto dfs = [&](int x, int y, int *visited, auto &&dfs) -> void {if (*(visited + x * n + y)) return;}; dfs(i, n - 1, &atlantic[0][0], dfs);
 void dfs(int x, int y, vector<vector<int>> &heights, int (&visited)[N][N])
 ```
 
-# bit operation
+## May 10, 2024
+[841] Keys-and-rooms
+```
+return all_of(visited.begin(), visited.end(), [](int x) { return x; });
+```
+# Union Find
+[684] [685] Redundant-connection I II | [1971] Find-if-path-exists-in-graph
+```
+iota(parent, parent + N, 0);
+function<int(int)> find = [&](int x) { return parent[x] == x ? x : parent[x] = find(parent[x]); };
+```
+
+# Bit Operation
 [1356] Sort-integers-by-the-number-of-1-bits
 ```
 int cntA = __builtin_popcount(a);
-std::bitset<32> b(x); return b.count();  // 假设我们处理的是32位整数  
+std::bitset<32> b(x); return b.count();  // assume the x is 32 bits intergal
 vector<int> bits(10001);
 for (int i = 1; i <= 10000; i++) 
   bits[i] = bits[i >> 1] + (i & 1);
