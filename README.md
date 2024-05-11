@@ -320,6 +320,9 @@ return all_of(visited.begin(), visited.end(), [](int x) { return x; });
 iota(parent, parent + N, 0);
 function<int(int)> find = [&](int x) { return parent[x] == x ? x : parent[x] = find(parent[x]); };
 ```
+# Array
+[1365] [941] [1207] [283] [189] [724] [34] [35] [922]
+
 
 # Bit Operation
 [1356] Sort-integers-by-the-number-of-1-bits
@@ -330,6 +333,8 @@ vector<int> bits(10001);
 for (int i = 1; i <= 10000; i++) 
   bits[i] = bits[i >> 1] + (i & 1);
 ```
+
+
 
 
 
