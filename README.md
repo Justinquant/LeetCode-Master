@@ -321,8 +321,22 @@ iota(parent, parent + N, 0);
 function<int(int)> find = [&](int x) { return parent[x] == x ? x : parent[x] = find(parent[x]); };
 ```
 # Array
-[1365] [941] [1207] [283] [189] [724] [34] [35] [922]
-
+[1365] [941] [1207] [283] [189] [724] [34] [35] [922] [31] Next-permutation - find the next lexicographically greater permutation
+```
+int n = nums.size();
+int i = n - 2;
+while (i >= 0 && nums[i] >= nums[i + 1]) {
+    i--;
+}
+if (i >= 0) {
+    int j = n - 1;
+    while (j > i && nums[j] <= nums[i]) {
+        j--;
+    }
+    swap(nums[i], nums[j]);
+}
+reverse(nums.begin() + i + 1, nums.end());
+```
 
 # Bit Operation
 [1356] Sort-integers-by-the-number-of-1-bits
@@ -333,6 +347,64 @@ vector<int> bits(10001);
 for (int i = 1; i <= 10000; i++) 
   bits[i] = bits[i >> 1] + (i & 1);
 ```
+
+## May 11, 2024
+# Linkedlist
+[24] [234] [141] [143]
+```
+ListNode **pp = &head, *a, *b;
+while ((a = *pp) && (b = a->next)) {
+  a->next = b->next;
+  b->next = a;
+  *pp = b;
+  pp = &(a->next);
+}
+```
+# Hashmap
+[1002][205]
+```
+ans.push_back(string(1, i + 'a')); // char -> string,  string{static_cast<char>(i + 'a')}
+
+```
+# String
+[844][925]
+
+## May 13, 2024
+# Tree
+[1382] [106] Construct Binary Tree from Inorder and Postorder Traversal - keep the record of two ararys' start and end index
+```
+TreeNode* buildTree(vector<int>& inorder, vector<int>& postorder) {
+    int m = inorder.size(), n = postorder.size();
+    if (!m || !n)
+        return nullptr;
+    auto build = [&](int iStart, int iEnd, int pStart, int pEnd,
+                     auto&& build) -> TreeNode* {
+        if (iEnd <= iStart || pEnd <= pStart)
+            return nullptr;
+    
+        TreeNode* node = new TreeNode(postorder[pEnd - 1]);
+        int spIdx = iStart;
+        for (; spIdx < iEnd; spIdx++)
+            if (inorder[spIdx] == postorder[pEnd - 1])
+                break;
+        int leftSize = spIdx - iStart;
+        node->left = build(iStart, spIdx, pStart, pStart + leftSize, build);
+        node->right =
+            build(spIdx + 1, iEnd, pStart + leftSize, pEnd - 1, build);
+        return node;
+    };
+    
+    return build(0, m, 0, n, build);
+}
+```
+
+# Greedy Algo 
+[649] Dota-2-senate | [1221] Split-a-string-in-balanced-string 
+
+# Dynamic Programming
+[5] Longest-palindromic-substring  [132] palindrome-partitioning-II | [637] Number-of-longest-increasing-subsequence
+
+
 
 
 
