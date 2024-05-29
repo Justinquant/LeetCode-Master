@@ -337,6 +337,10 @@ if (i >= 0) {
 }
 reverse(nums.begin() + i + 1, nums.end());
 ```
+```
+isalnum() // check whether is number or letters , true return non zero false return 0
+std::istringstream in(str); in >> word extract word without space
+```
 
 # Bit Operation
 [1356] Sort-integers-by-the-number-of-1-bits
