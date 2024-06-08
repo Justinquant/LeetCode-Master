@@ -83,7 +83,8 @@ find the the kth in n: n >> k & 1
 return the last 1 of n：lowbit(n) = n & -n, -n = ~n + 1 // Two's Complement
 
 YYY camp:  
-[344] Reverse String - easy s[i] ^= s[j]; s[j] ^= s[i]; s[i] ^= s[j]; 
+[344] Reverse String - easy    
+```s[i] ^= s[j]; s[j] ^= s[i]; s[i] ^= s[j];``` 
 [541] Reverse String II - easy    
 [151] Reverse Words in a String - can use stack as well,erase is On time complexity   
 
@@ -214,7 +215,8 @@ unordered_map<string, priority_queue<string, vector<string>, greater<string>>> t
 ```  
 [51] N-Queens              
 ``` 
-vector<int> cols(n, 0), diag1(2 * n - 1, 0), diag2(2 * n - 1, 0); if (cols[col] || diag1[row + col] || diag2[row - col + n - 1]) continue;
+vector<int> cols(n, 0), diag1(2 * n - 1, 0), diag2(2 * n - 1, 0);
+if (cols[col] || diag1[row + col] || diag2[row - col + n - 1]) continue;
 ```
 [37] Sudoku Solver            
 ``` 
